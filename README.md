@@ -1,4 +1,4 @@
-hprest
+HPREST Puppet Module
 ======
 
 ####Table of Contents
