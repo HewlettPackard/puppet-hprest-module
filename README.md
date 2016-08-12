@@ -28,7 +28,7 @@ Use this command to install hprest:
 puppet module install lumbajack-hprest
 ```
 
-For a manual installtion, download this module as a zip, and unzip it in your modules folder. The hprest module directory should be simply named “hprest”, so the node definition will recognize the module as hprest.
+For a manual installation, download this module as a zip, and unzip it in your modules folder. The hprest module directory should be simply named “hprest”, so the node definition will recognize the module as hprest.
 
 **Note:** If installing manually, or from this repository, ensure the folder is named “hprest” so Puppet can locate the module.
 
@@ -43,7 +43,7 @@ node default {
 }
 ```
 
-To write your own commands to be sent, we utilize the service defined type. Ensure that each resource name is different, or puppet will throw an error. It is best to name them to reflect their usage. Additionally, the use of ordering arrows is important. hprest must first be installed, and the server must be logged into before anything can done, thus the login resource must be ordered before the types resource.
+To write your own commands to be sent, we utilize the service defined type. Ensure that each resource name is different, or puppet will throw an error. It is best to name them to reflect their usage. Additionally, the use of ordering arrows is important. hprest must first be installed, and the server must be logged into before anything can done, thus the login resource must be ordered before the types resource. Note, that the RESTful Interface Tool can be logged into remotely and locally through the hprest module. Simply exclude -u,-p and exclude the credentials.
 
 ``` sourceCode
 node default {
