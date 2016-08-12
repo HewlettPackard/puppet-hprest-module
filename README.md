@@ -1,5 +1,7 @@
 HPREST Puppet Module
 ======
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/HewlettPackard/puppet-ilorest-module/master/LICENSE)
+[![Codacy grade](https://img.shields.io/codacy/grade/e23aada28c2c4c3b98a6508f643edebd.svg?maxAge=2592000)](https://www.codacy.com/app/kckaiwei/puppet-hprest-module)
 
 ####Table of Contents
 
