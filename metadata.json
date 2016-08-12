@@ -1,0 +1,28 @@
+{
+  "name": "lumbajack-hprest",
+  "version": "1.0.0",
+  "author": "lumbajack-hprest",
+  "summary": "Installs and utilizes Hprest to manage server settings",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": "",
+  "issues_url": "",
+  "description": "Puppet module for installing and utilizing HPE's RESTful Interface Tool to maange server settings",
+  "tags": [
+  	"hprest",
+	"hpe",
+	"redfish",
+	"restful"
+	],
+  "operatingsystems_support": [{
+	"operatingsystem": "RedHat"
+  }, {
+	"operatingsystem": "Ubuntu"
+  }, {
+	"operatingsystem": "Debian"
+  }, {
+	"operatingsystem": "Windows"
+  }],
+ "dependencies": [],
+ "data_provider": null
+}
