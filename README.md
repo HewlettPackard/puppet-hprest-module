@@ -1,7 +1,10 @@
 HPREST Puppet Module
 ======
-[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/HewlettPackard/puppet-ilorest-module/master/LICENSE)
-[![Codacy grade](https://img.shields.io/codacy/grade/e23aada28c2c4c3b98a6508f643edebd.svg?maxAge=2592000)](https://www.codacy.com/app/kckaiwei/puppet-hprest-module)
+
+[![Build Status](https://travis-ci.org/HewlettPackard/puppet-ilorest-module.svg?branch=master)](https://travis-ci.org/HewlettPackard/puppet-hprest-module)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/lumbajack/ilorest.svg?maxAge=2592000)](https://forge.puppet.com/lumbajack/hprest)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/HewlettPackard/puppet-hprest-module/master/LICENSE)
+[![Codacy grade](https://img.shields.io/codacy/grade/5b7b9a4eb9fa4ac2af343c0a2641202e.svg?maxAge=2592000)](https://www.codacy.com/app/rexysmydog/puppet-hprest-module)
 
 ####Table of Contents
 
