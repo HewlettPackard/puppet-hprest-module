@@ -4,7 +4,7 @@
 define hprest::service (
   $command  = undef, #: valid hprest command to be used
 ) {
-if $osfamily == 'ubuntu' {
+if $::osfamily == 'ubuntu' {
 
     #Setting default Exec parameters, path is designated in case environmental variables were not set
     Exec {
@@ -15,7 +15,7 @@ if $osfamily == 'ubuntu' {
       }
   }
 
-  if $osfamily == 'redhat' {
+  if ::osfamily == 'redhat' {
 
     #Setting default Exec parameters, path is designated in case environmental variables were not set
     Exec {
@@ -25,7 +25,7 @@ if $osfamily == 'ubuntu' {
       }
   }
 
-  if $osfamily == 'windows'{
+  if $::osfamily == 'windows'{
 
     Exec {
       path      => 'C:\Program Files\Hewlett Packard Enterprise\HPE RESTful Interface Tool',
@@ -37,7 +37,7 @@ if $osfamily == 'ubuntu' {
 
   #Start of common resources
   #Start of examples execution, double quote use to allow variable use. 
-  if $ilo_username or $ilo_password != 'None' {
+  if $::ilo_username or $::ilo_password != 'None' {
     exec { $title:
       command => "hprest ${command}",
     }

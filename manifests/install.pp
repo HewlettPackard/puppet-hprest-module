@@ -3,7 +3,7 @@
 #
 class hprest::install {
 
-  if $osfamily == 'debian' {
+  if $::osfamily == 'debian' {
       #all of the repos are the same, so trusty works for all
       file {'apt repo':
         ensure  => 'file',
@@ -23,7 +23,7 @@ class hprest::install {
         }
     }
 
-  if $osfamily == 'redhat' {
+  if $::osfamily == 'redhat' {
 
     #manual install using yum from HPE's official repository
     yumrepo { 'hprestrepo':
@@ -41,7 +41,7 @@ class hprest::install {
 
   }
 
-  if $osfamily == 'windows' {
+  if $::osfamily == 'windows' {
 
     #msiexec is called when provider is set to windows
     #/i & /qn flags are automatically included.
