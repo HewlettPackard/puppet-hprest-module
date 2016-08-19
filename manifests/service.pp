@@ -38,7 +38,7 @@ if $osfamily == 'ubuntu' {
   #Start of common resources
   #Start of examples execution, double quote use to allow variable use. 
   if $ilo_username or $ilo_password != 'None' {
-    exec { "${title}":
+    exec { $title:
       command => "hprest ${command}",
     }
   }
