@@ -6,7 +6,7 @@ HPREST Puppet Module
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/HewlettPackard/puppet-hprest-module/master/LICENSE)
 [![Codacy grade](https://img.shields.io/codacy/grade/5b7b9a4eb9fa4ac2af343c0a2641202e.svg?maxAge=2592000)](https://www.codacy.com/app/rexysmydog/puppet-hprest-module)
 
-####Table of Contents
+#### Table of Contents
 
 1. [Overview](#overview)
 2. [Description](#description)
