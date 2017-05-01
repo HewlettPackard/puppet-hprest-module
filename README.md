@@ -25,7 +25,7 @@ Puppet module for installing the hprest interface tool, and utilizing it to mana
 Description
 ===========
 
-hprest is a module that installs the RESTful Interface Tool, also known as hprest. Through the use of defined types, users can send any valid RESTful Interface command through the hprest module to the node server.
+Hprest is a module that installs the RESTful Interface Tool, also known as hprest. Through the use of defined types, users can send any valid RESTful Interface command through the hprest module to the node server.
 
 Installation
 ============
@@ -43,7 +43,7 @@ For a manual installation, download this module as a zip, and unzip it in your m
 Usage
 =====
 
-**hprest** by itself will install the HPE RESTful Interface Tool from HPE's official respository. This can be triggered by including the hprest class.
+**Hprest** by itself will install the HPE RESTful Interface Tool from HPE's official respository. This can be triggered by including the hprest class.
 
 ``` sourceCode
 node default {
