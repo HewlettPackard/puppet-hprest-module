@@ -13,6 +13,9 @@ HPREST Puppet Module
 3. [Setup](#setup)
 4. [Installation](#installation)
 5. [Usage](#usage)
+6. [History](#history)
+7. [License](#license)
+8. [Authors](#authors)
 
 Overview
 ===========
